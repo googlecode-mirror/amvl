@@ -1,0 +1,26 @@
+#header #entete_logo
+{
+background : transparent url('../Img/banniere.png') no-repeat center top;
+position: relative;
+text-indent:-9999px;
+height: 420px;
+}
+
+#header #barre_recherche
+{
+	position:absolute;
+	top:100px;
+	left: 680px;
+}
+
+#header #barre_recherche a
+{
+	/*margin-left: 5px;*/
+	float:right;
+	background:transparent url('../Img/go.png') no-repeat center;
+	font-size:0px;
+	display:block;
+	height:20px;
+	width:30px;
+	/*text-indent: 10000px;*/
+}

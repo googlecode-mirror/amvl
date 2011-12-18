@@ -1,0 +1,35 @@
+#nav ol
+{
+position: relative;
+right: 0;
+}
+
+#menu_g
+{
+margin-left:-1em;
+}
+
+#menu_g li
+{
+display:block;
+float: left;
+margin: 0 0 1em 1em;
+cursor: pointer;
+margin-top:0.5em;
+}
+
+#menu_g li a
+{
+	color:white;
+	font-size: 18px;
+}
+
+#menu_g li a:hover
+{
+	font-size:16px;
+	color:black;
+	border: 2px #4CB7ED outset;
+	border-radius: 10px;
+	padding: 1px 4px;
+	font-weight:bold;
+}

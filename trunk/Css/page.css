@@ -1,0 +1,70 @@
+html, body
+{
+height: 100%;
+width: 100%;
+}
+
+body
+{
+background: #ffe8af;
+color: #000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.75em;
+margin-left:auto;
+margin-right:auto;
+overflow: auto;
+
+/* pour  "fixer" le site */
+width : 1000px;
+text-align : center ;
+/*border-top: 1px solid #000;*/
+}
+
+#clear
+{
+clear: both;
+}
+
+#header
+{
+}
+
+#nav
+{
+font-size: 22px;
+margin-top: -7em;
+height: 2em;
+width:990px;
+}
+
+#supercontent
+{
+/*background: url('../Img/fondSite.png') no-repeat center top; */
+overflow:hidden;
+min-height: 200px;
+}
+
+#content
+{
+/*margin-top: 12em;*/
+position: relative;
+overflow: auto;
+width: 698px;
+min-height: 600px;
+}
+
+#leftcontent
+{
+	float:left;
+	width:200px;
+	height:300px;
+	background: transparent url('../Img/leftnav.png');
+}
+
+#contact
+{
+height:3em;
+/*background : transparent url('../Img/contact.png') repeat; */
+text-align: right;
+-moz-border-radius: 5px; /* non valide CSS2 en attente CSS3 */ 
+}
