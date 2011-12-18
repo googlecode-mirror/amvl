@@ -1,0 +1,33 @@
+#sousmenu
+{
+	margin-top: 5em;
+	position:relative;
+	z-index:2;
+}
+
+#sousmenu li
+{
+	margin-left:-33px;
+	display:block;
+	margin-top: 1em;
+	cursor: pointer;
+}
+
+#sousmenu a
+{
+	display:block;
+	height: 2em;
+	width: 180px;
+	font-size: 15px;
+	color: white;
+}
+
+#sousmenu a:hover
+{
+	background-color: #fe7700;
+	color:white;
+	border: 2px #4CB7ED outset;
+	border-radius: 10px;
+	padding: 1px 4px;
+	font-weight:bold;
+}
